@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#EBF4FA"
+        android:hint="ປ້ອນຊື່ຜູ້ໃຊ້"
+
+        android:textSize="30sp"></EditText>
+
+    <EditText
+        android:id="@+id/password_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#EBF4FA"
+        android:hint="ປ້ອນລະຫັດຜ່ານ"
+        android:textSize="30sp">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_graivity="center">
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ລັອກອິນ"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ສະໝັກ"
+            android:textSize="30sp"
+
+            />
+    </LinearLayout>
+</android.widget.LinearLayout>
